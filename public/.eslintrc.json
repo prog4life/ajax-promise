@@ -1,0 +1,28 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "globalReturn": false,
+      "impliedStrict": false,
+      "jsx": false,
+      "experimentalObjectRestSpread": false
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": false,
+    "es6": true,
+    "jquery": true,
+    "commonjs": false
+  },
+  "root": true,
+  "globals": {
+      "window": false,
+      "document": false
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": "warn"
+  }
+}
